@@ -1,0 +1,272 @@
+[
+  {
+    "payment_id": "P1001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "P1002",
+    "amount": 7999,
+    "recovery_probability": 0.1,
+    "action": "PAYMENT_LINK",
+    "reason": "Card declined, try an alternative payment method",
+    "status": "FAILED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "P1003",
+    "amount": 499,
+    "recovery_probability": 0.8999999999999999,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 499
+  },
+  {
+    "payment_id": "P1004",
+    "amount": 24999,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 24999
+  },
+  {
+    "payment_id": "P1005",
+    "amount": 1299,
+    "recovery_probability": 0.0,
+    "action": "ESCALATE",
+    "reason": "Already successful",
+    "status": "ESCALATED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "P1006",
+    "amount": 5999,
+    "recovery_probability": 0.9,
+    "action": "ESCALATE",
+    "reason": "Maximum retry limit reached.",
+    "status": "ESCALATED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "P1007",
+    "amount": 899,
+    "recovery_probability": 0.5,
+    "action": "ESCALATE",
+    "reason": "Failure reason cannot be safely handled automatically",
+    "status": "ESCALATED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "P1008",
+    "amount": 14999,
+    "recovery_probability": 0.6000000000000001,
+    "action": "PAYMENT_LINK",
+    "reason": "Card declined, try an alternative payment method",
+    "status": "SUCCESS",
+    "recovered_amount": 14999
+  },
+  {
+    "payment_id": "P1009",
+    "amount": 1999,
+    "recovery_probability": 0.0,
+    "action": "ESCALATE",
+    "reason": "Already successful",
+    "status": "ESCALATED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "P1010",
+    "amount": 3499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 3499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "temporary failure, user has previous succesful payments",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "confidence": 0.9,
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST002",
+    "amount": 8999,
+    "recovery_probability": 0.4,
+    "action": "PAYMENT_LINK",
+    "reason": "Payment successfully recovered through payment link.",
+    "confidence": 0.75,
+    "status": "SUCCESS",
+    "recovered_amount": 8999
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "confidence": 0.85,
+    "status": "SUCCESS",
+    "recovered_amount": 2499
+  },
+  {
+    "payment_id": "TEST002",
+    "amount": 8999,
+    "recovery_probability": 0.4,
+    "action": "PAYMENT_LINK",
+    "reason": "Razorpay Test Mode payment link created.",
+    "confidence": 0.75,
+    "status": "PAYMENT_LINK_CREATED",
+    "recovered_amount": 0
+  },
+  {
+    "payment_id": "TEST002",
+    "amount": 8999,
+    "recovery_probability": 0.4,
+    "action": "PAYMENT_LINK",
+    "reason": "Razorpay Test Mode payment link created.",
+    "status": "PAYMENT_LINK_CREATED",
+    "recovered_amount": 0,
+    "confidence": 0.75,
+    "payment_link": "https://rzp.io/rzp/M5zvMJd8"
+  },
+  {
+    "payment_id": "TEST002",
+    "amount": 8999,
+    "recovery_probability": 0.4,
+    "action": "PAYMENT_LINK",
+    "reason": "Razorpay Test Mode payment link created.",
+    "status": "PAYMENT_LINK_CREATED",
+    "recovered_amount": 0,
+    "confidence": 0.75,
+    "payment_link": "https://rzp.io/rzp/bb87Ur6",
+    "razorpay_payment_link_id": "plink_TY00ybAbFHevIF"
+  },
+  {
+    "payment_id": "TEST002",
+    "amount": 8999,
+    "recovery_probability": 0.4,
+    "action": "PAYMENT_LINK",
+    "reason": "Razorpay Test Mode payment link created.",
+    "status": "PAYMENT_LINK_CREATED",
+    "recovered_amount": 0,
+    "confidence": 0.75,
+    "payment_link": "https://rzp.io/rzp/5JhYhwqL",
+    "razorpay_payment_link_id": "plink_TY073lZDLJZJd7"
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499,
+    "confidence": 0.85,
+    "payment_link": null,
+    "razorpay_payment_link_id": null
+  },
+  {
+    "payment_id": "TEST001",
+    "amount": 2499,
+    "recovery_probability": 0.9,
+    "action": "RETRY",
+    "reason": "Payment successfully recovered through retry.",
+    "status": "SUCCESS",
+    "recovered_amount": 2499,
+    "confidence": 0.85,
+    "payment_link": null,
+    "razorpay_payment_link_id": null
+  }
+]

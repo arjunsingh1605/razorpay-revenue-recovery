@@ -1,0 +1,122 @@
+[
+  {
+    "payment_id": "P1001",
+    "customer_id": "C001",
+    "amount": 2499,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "network_error",
+    "attempt_count": 1,
+    "previous_successful_payments": 6,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 18500
+  },
+  {
+    "payment_id": "P1002",
+    "customer_id": "C002",
+    "amount": 7999,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "card_declined",
+    "attempt_count": 3,
+    "previous_successful_payments": 0,
+    "previous_failed_payments": 4,
+    "total_previous_spend": 0
+  },
+  {
+    "payment_id": "P1003",
+    "customer_id": "C003",
+    "amount": 499,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "timeout",
+    "attempt_count": 1,
+    "previous_successful_payments": 3,
+    "previous_failed_payments": 0,
+    "total_previous_spend": 2100
+  },
+  {
+    "payment_id": "P1004",
+    "customer_id": "C004",
+    "amount": 24999,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "bank_error",
+    "attempt_count": 1,
+    "previous_successful_payments": 12,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 145000
+  },
+  {
+    "payment_id": "P1005",
+    "customer_id": "C005",
+    "amount": 1299,
+    "currency": "INR",
+    "status": "success",
+    "failure_reason": null,
+    "attempt_count": 1,
+    "previous_successful_payments": 2,
+    "previous_failed_payments": 0,
+    "total_previous_spend": 2500
+  },
+  {
+    "payment_id": "P1006",
+    "customer_id": "C006",
+    "amount": 5999,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "timeout",
+    "attempt_count": 2,
+    "previous_successful_payments": 8,
+    "previous_failed_payments": 2,
+    "total_previous_spend": 42000
+  },
+  {
+    "payment_id": "P1007",
+    "customer_id": "C007",
+    "amount": 899,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "unknown",
+    "attempt_count": 1,
+    "previous_successful_payments": 1,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 899
+  },
+  {
+    "payment_id": "P1008",
+    "customer_id": "C008",
+    "amount": 14999,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "card_declined",
+    "attempt_count": 1,
+    "previous_successful_payments": 7,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 68000
+  },
+  {
+    "payment_id": "P1009",
+    "customer_id": "C009",
+    "amount": 1999,
+    "currency": "INR",
+    "status": "success",
+    "failure_reason": null,
+    "attempt_count": 2,
+    "previous_successful_payments": 4,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 9200
+  },
+  {
+    "payment_id": "P1010",
+    "customer_id": "C010",
+    "amount": 3499,
+    "currency": "INR",
+    "status": "failed",
+    "failure_reason": "network_error",
+    "attempt_count": 1,
+    "previous_successful_payments": 5,
+    "previous_failed_payments": 1,
+    "total_previous_spend": 15000
+  }
+]
